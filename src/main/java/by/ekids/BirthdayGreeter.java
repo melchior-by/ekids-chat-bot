@@ -60,11 +60,8 @@ public class BirthdayGreeter {
             }
         }
         usedNumbers[usedNumberStep] = greetNumber;
-        if(isComplex) {
-            greets[usedNumberStep + 4] = wordsArray[greetNumber];
-        } else {
-            greets[usedNumberStep + 1] = wordsArray[greetNumber];
-        }
-
+        //тернарный оператор
+        int step = isComplex ? 4 : 1;
+        greets[usedNumberStep + step] = wordsArray[greetNumber];
     }
 }
