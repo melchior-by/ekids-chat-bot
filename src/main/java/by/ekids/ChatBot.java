@@ -2,7 +2,7 @@ package by.ekids;
 
 import java.util.Scanner;
 
-public class Main {
+public class ChatBot {
     private static String[] riddleAnswers = {"человек", "Человек", "ЧЕЛОВЕК"};
     private static String[] possibleOperations = {"1. Написать поздравление с Днём Рождения",
             "2. Покинуть диалог"};
