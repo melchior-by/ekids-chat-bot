@@ -1,4 +1,4 @@
-package by.ekids.weather;
+package by.ekids.weather.service;
 
 import java.net.URI;
 import java.net.http.HttpClient;
